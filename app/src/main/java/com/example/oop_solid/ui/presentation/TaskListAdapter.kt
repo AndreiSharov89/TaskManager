@@ -1,4 +1,4 @@
-package com.example.oop_solid
+package com.example.oop_solid.ui.presentation
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.oop_solid.R
+import com.example.oop_solid.domain.Task
 
 class TaskListAdapter(private val tasks: List<Task>) : RecyclerView.Adapter<TaskListAdapter.TaskViewHolder>() {
 

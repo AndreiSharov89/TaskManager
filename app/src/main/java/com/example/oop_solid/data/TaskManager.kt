@@ -1,6 +1,7 @@
-package com.example.oop_solid
+package com.example.oop_solid.data
 
 import android.content.Context
+import com.example.oop_solid.domain.Task
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
